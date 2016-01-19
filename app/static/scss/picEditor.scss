@@ -1,0 +1,26 @@
+/**
+ * @file
+ * @author jinguangguo
+ * @date 2015/11/14
+ */
+
+@import 'base';
+
+.module-nav {
+    float: left;
+    width: 200px;
+}
+
+.layout-main {
+    border: 1px $main-color solid;
+    margin-left: 220px;
+    height: 800px;
+    background-color: #ffffff;
+}
+
+@import "../../widget/dialog/dialog";
+@import "../../widget/fontFamily/fontFamily";
+@import "../../widget/showText/showText";
+@import "../../widget/pic/pic";
+@import "../../widget/saveAsDialog/saveAsDialog";
+@import "../../widget/paperManager/shapeBox/shapeBox";

@@ -1,0 +1,41 @@
+{
+  "name": "svg-image-editor",
+  "version": "1.0.0",
+  "description": "图片在线服务",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinguangguo/test-react-gulp.git"
+  },
+  "keywords": [
+    "editor",
+    "image"
+  ],
+  "author": "jinguangguo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinguangguo/svg-image-editor/issues"
+  },
+  "homepage": "https://github.com/jinguangguo/svg-image-editor#readme",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.1.0",
+    "gulp-sequence": "^0.4.1",
+    "hapi": "^8.8.0",
+    "node-sass": "^3.4.2",
+    "reactify": "^1.1.1",
+    "semantic-ui": "^2.1.6",
+    "swig": "^1.4.2",
+    "zepto": "0.0.4"
+  }
+}
