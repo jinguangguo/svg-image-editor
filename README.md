@@ -56,7 +56,7 @@ gulp deploy;
 
 **1.基础API:**
 
-> - [http://www.w3schools.com/svg/default.asp](http://www.w3schools.com/svg/default.asp)
+> - [https://www.w3schools.com/html/html5_svg.asp](https://www.w3schools.com/html/html5_svg.asp)
 
 **2.兼容性:**
 
@@ -65,15 +65,15 @@ gulp deploy;
 
 **3.与后端的通信:**
 
-> - 使用base64: 由svg变成canvas, 请参考[https://github.com/gabelerner/canvg](https://github.com/gabelerner/canvg), 然后再使用canvas的base64接口,请参考[https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL)
+> - 使用base64: 由svg变成canvas, 请参考[https://github.com/gabelerner/canvg](https://github.com/gabelerner/canvg), 然后再使用canvas转换为base64接口toDataURL方法
 > - 另存为: 提供给前端,window.location.href="base64OfImage"即可
 
 **4.raphaeljs:**
 
 svg基础封装库, 就如同jquery对js的封装
 
-> - 参考[http://raphaeljs.com/](http://raphaeljs.com/)
-> - API: [http://raphaeljs.com/reference.html](http://raphaeljs.com/reference.html)
+> - 参考[http://dmitrybaranovskiy.github.io/raphael](http://dmitrybaranovskiy.github.io/raphael)
+> - API: [http://dmitrybaranovskiy.github.io/raphael/reference.html](http://dmitrybaranovskiy.github.io/raphael/reference.html)
 
 **5.canvas和svg的比较**
 
